@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Domains | Living Lab</title>
+    <link rel="stylesheet" href="/css/domain.css">
+</head>
+<body>
+
+<header>
+    <h1>CivicBridge </h1>
+    <nav>
+        <a href="#about">What is a Living Lab?</a>
+        <a href="#challenges">Challenges</a>
+        <a href="#how">How It Works</a>
+        <a href="#community">Community</a>
+        <a href="#impact">Impact</a>
+        <a href="#resources">Resources</a>
+        <a href="#join">Join the Lab</a>
+    </nav>
+
+
+</header><div class="center"
+<br><br><h1>Domains We Work In</h1>
+<p>Driving change through collaboration, technology & innovation</p>
+<section class="domains-container">
+
+    <div class="domain-card" onclick="showInfo('education')">
+        <h2>Education</h2>
+    </div>
+
+    <div class="domain-card" onclick="showInfo('health')">
+        <h2>Healthcare</h2>
+    </div>
+
+    <div class="domain-card" onclick="showInfo('environment')">
+        <h2>Environment</h2>
+    </div>
+
+    <div class="domain-card" onclick="showInfo('social')">
+        <h2>Social Help</h2>
+    </div>
+
+    <div class="domain-card" onclick="showInfo('animal')">
+        <h2>Animal Rescue and Shelter</h2>
+    </div>
+
+    <div class="domain-card" onclick="showInfo('disaster')">
+        <h2>Disaster Relief</h2>
+    </div>
+    
+        <div class="domain-card" onclick="showInfo('other')">
+        <h2>Other</h2>
+    </div>
+</section>
+
+<!-- Info Box -->
+<div id="infoBox" class="info-box">
+    <span onclick="closeInfo()">✖</span>
+    <p id="infoText"></p>
+</div>
+
+<script src="/javascript/domain.js"></script>
+</body>
+</html>
