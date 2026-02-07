@@ -5,17 +5,78 @@ body {
 }
 
 header {
-    background: #1e3d59;
+    background: #4C1C17;
     color: white;
     padding: 15px;
     position: sticky;
     top: 0;
 }
+/* Logo + Title container */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.fonts__{
+    display:flex;
+    flex-direction: column;
+}
+/* Logo image */
+.logo {
+    width: 45px;
+    height: auto;
+}
 
+/* Header title */
+.header h1 {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+.header h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Navigation */
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
 nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
+}
+.sidebar {
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1e293b;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #475569;
 }
 
 .hero {
