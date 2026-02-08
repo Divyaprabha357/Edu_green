@@ -66,7 +66,6 @@ function signIn() {
 
             const encodedMessage = encodeURIComponent(whatsappMessage);
 
-            // 👉 Replace with the college's official WhatsApp number
             const collegeWhatsAppNumber = "918898494644";
 
             const whatsappURL = `https://wa.me/${collegeWhatsAppNumber}?text=${encodedMessage}`;
@@ -76,7 +75,7 @@ function signIn() {
             window.open(whatsappURL, "_blank");
 
             setTimeout(() => {
-                window.location.href = "/index.html";
+                window.location.href = "../index.html";
             }, 2000);
         })
 
@@ -167,3 +166,4 @@ function findNearestCollege() {
     document.getElementById("collegeName").value = nearest.name;
 
 }
+
